@@ -39,7 +39,7 @@ const ProjectsSection = () => {
   fullDescription: "This portfolio website is my digital home, designed to introduce myself as a developer and showcase my best work. It features a friendly, welcoming hero section, a summary of my skills, and a gallery of real-world projects. The site is fully responsive, visually engaging, and easy to navigate, making it simple for visitors to learn about my background, view my resume, and get in touch.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Raees-J/Portfolio",
       featuredImage: project1,
       gallery: [project1],
     },
@@ -51,7 +51,7 @@ const ProjectsSection = () => {
   fullDescription: "Masjid Connect is a community platform for Muslims in South Africa to find local masjids, check accurate prayer times, and stay updated with events. The homepage features a beautiful masjid image, quick access to explore masjids or join the community, and a real-time prayer times widget. The design is welcoming and easy to use for all ages, helping users strengthen their connection to their local masjid and community.",
       technologies: ["React", "Node.js", "Google Maps API", "Tailwind CSS"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Raees-J/sajdah-essentials",
       featuredImage: project2,
       gallery: [project2],
     },
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
   fullDescription: "The Lost and Found Portal is a student-focused platform for reporting, searching, and recovering lost items on campus. The homepage highlights student support services and resources, with a prominent carousel for help contacts. The portal makes it easy to report lost or found items, browse listings, and access support, all in a safe and user-friendly environment.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Raees-J/Lost-N-Found-master",
       featuredImage: project3,
       gallery: [project3],
     }
@@ -143,7 +143,7 @@ const ProjectsSection = () => {
               Want to see more? Check out my GitHub for additional projects and experiments!
             </p>
             <Button variant="outline" size="lg" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Raees-J" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 mr-2" />
                 View All Projects
               </a>
